@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรไฟล์ของฉัน - วิรยา</title> <!-- ลองเปลี่ยนเป็นชื่อคุณ -->
+    <style>
+        /* --- General Styles --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* --- Container --- */
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        /* --- Header --- */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+            border: 5px solid #555;
+            object-fit: cover;
+        }
+        header h1 {
+            margin: 10px 0;
+        }
+
+        /* --- Main Content --- */
+        main {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        /* --- Links/Buttons --- */
+        .social-links a {
+            text-decoration: none;
+            color: #fff;
+            background: #007bff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .social-links a:hover {
+            background: #0056b3;
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <!-- ใส่ลิงก์รูปโปรไฟล์ของคุณตรง src="..." -->
+            <img src="https://via.placeholder.com/150" alt="รูปโปรไฟล์" class="profile-pic">
+            <h1>วิรยา เกียงคำ</h1> <!-- เปลี่ยนเป็นชื่อคุณ -->
+            <p>นักพัฒนาเว็บไซต์ | นักศึกษา | ผู้มีความฝัน</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="about">
+                <h2>เกี่ยวกับฉัน</h2>
+                <p>
+                    สวัสดีครับ/ค่ะ! ผม/ชื่อ... กำลังศึกษาอยู่ที่... มีความสนใจในการพัฒนาเว็บไซต์และเทคโนโลยีใหม่ๆ 
+                    เว็บไซต์นี้เป็นส่วนหนึ่งของการเรียนรู้และแสดงผลงานของฉัน
+                </p>
+            </section>
+
+            <section id="contact">
+                <h2>ช่องทางติดต่อ</h2>
+                <p>คุณสามารถติดตามผลงานหรือติดต่อฉันได้ที่:</p>
+                <div class="social-links">
+                    <!-- แก้ไขลิงก์ # ให้เป็น URL ของคุณ -->
+                    <a href="https://github.com/67021264Wirayakiangkham" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 วิรยา เกียงคำ. สงวนลิขสิทธิ์.</p>
+    </footer>
+
+</body>
+</html>
